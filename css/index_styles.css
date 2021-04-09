@@ -78,7 +78,7 @@ div.center{
 }
 div#hist::before{
     height: 1080px;
-    background-image: url(/img/pong-wallpaper.jpg);
+    background-image: url(https://laytongentleman.github.io/site_nsi//img/pong-wallpaper.jpg);
     background-repeat: no-repeat;
     position: absolute;
     top: 0px;
@@ -104,7 +104,7 @@ div#hist{
 
 div#dev::before{
     height: 1080px;
-    background-image: url(/img/1470135-game-developer-wallpaper-1920x1080-images.jpg);
+    background-image: url(https://laytongentleman.github.io/site_nsi//img/1470135-game-developer-wallpaper-1920x1080-images.jpg);
     background-repeat: no-repeat;
     content: "";
     position: absolute;
@@ -127,7 +127,7 @@ div#dev{
 }
 div#bib::before{
     height: 1080px;
-    background-image: url(/img/Hollow-Knight-Gameplay-Wallpaper-HD.jpg);
+    background-image: url(https://laytongentleman.github.io/site_nsi//img/Hollow-Knight-Gameplay-Wallpaper-HD.jpg);
     background-repeat: no-repeat;
     content: "";
     position: absolute;
