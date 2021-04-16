@@ -6,7 +6,7 @@
         <!-- le type d'encodage-->
         <meta charset="utf-8">
         <!-- le lien vers le fichier css-->
-        <link rel="stylesheet" href="css/index_styles.css">
+        <link rel="stylesheet" href="/css/histoire.css">
         <link rel="icon" href="/icon.png" type="image/png" >
 
         
@@ -20,14 +20,67 @@
 
 <body>
     <header>
-        <div id="ban">
 
-        </div>
+        <!--
+            <li class="deroulant" > <a href="/index.html">Navigation</a> </li>
+                <ul class="sous">
+                    <li><a href="#">Cours HTML et CSS</a></li>
+                    <li><a href="#">Cours JavaScript</a></li>
+                    <li><a href="#">Cours PHP et MySQL</a></li>
+                </ul>-->  
+
+        
+
+
+        <nav class="menu">
+            <ul>
+            
+                <li id="drop">
+                    <div class="dropdown">
+                        <button class="boutonmenuprincipal">Navigation</button>
+                        <div class="dropdown-child" >
+                        <a  class="dropdown-btn btn btn1" href="/index.html">Menu Principal</a>
+                        <a class="dropdown-btn btn btn2" href="/pages/dev.html">Developpement</a>
+                        <a class="dropdown-btn btn btn3" href="/pages/bibliothèque.html">Bibliothèque</a>
+                        <a class="dropdown-btn btn btn4" href=""></a>
+                        <a class="dropdown-btn" href=""></a>
+                        
+                        </div> 
+
+                </li>
+                <li>Recherche</li>
+                <li> <a href="/pages/contact.html">Contact</a>  </li>
+
+            </ul>
+        </nav>
         
 
 
     </header>
-    <H2>HISTOIREHISTOIREHISTOIREHISTOIREHISTOIRE</H2>
+    <ul id="frise">
+        <li><a class="#1" href="#origines">1950</a></li>
+        <li><a href="#2">1960</a></li>
+        <li><a href="#3">1970</a></li>
+        <li><a href="#4">1980</a></li>
+        <li><a href="#5">1990</a></li>
+        <li><a href="#6">2000</a></li>
+    
+    </ul>
+    <div class="content">
+        <div id="origines">
+            <h1>Les Origines</h1>
+            <p style="margin-top: 2em !important;">L’histoire du jeu vidéo débute dans les années 1950, où l’idée du jeu vidéo nait au sein des universités lors des recherches informatiques. </p>
+            <img style="margin-left: 15em;" src="/img/first_monitor.jpeg" alt="">
+            <p>Le développement des ordinateurs est l’origine de la création des jeux vidéo.</p>
+            <p>Au début les ordinateurs n’étaient pas assez modernes pour imaginer jouer dessus néanmoins certaines universités américaines s’amusent à créer les premiers jeux sur ordinateurs.</p>
+            <p>Leur but n’était pas de divertir mais de démontrer le fonctionnement des « nouvelles technologies » !</p>
+        </div>
+
+
+        
+
+    </div>
+    
     
     
 
