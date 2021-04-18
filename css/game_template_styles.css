@@ -335,17 +335,21 @@ div.row{
 .cr{
     width: 40%;
 }
-
+.cl2{
+    width: 52%;
+}
+.cr2{
+    width: 48%;
+}
 
 .title{
 
     text-align: center;
     height: 2em;
     vertical-align: middle;
-    width: 10em;
+    width: 20em;
     margin-top: 0em;
     margin: auto;
-
     display: table-caption;
 
 }
@@ -490,4 +494,14 @@ div#review p{
     width: 70%;
     text-align:center;  
 }
-
+video{
+    width: 50em;
+}
+figure{
+    margin-left: 0em !important;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;;
+    margin: 0em 0em !important;
+}

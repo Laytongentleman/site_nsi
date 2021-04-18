@@ -176,7 +176,12 @@ div.content{
     margin-left: 3em;
     color: white;
     margin-top: 8em;
-    display: flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
 }
 
 
