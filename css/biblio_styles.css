@@ -181,21 +181,6 @@ padding-top: 0.5em;
 
 
 
-.btn:hover{
-transform: scale(1.1);
-
-}
-
-.btn{
-border: none;
-font-family: "Poppins",serif;
-border-radius: 6px;
-cursor: pointer;
-color: #fff;
-background-size: 200%;
-transition: 0.3s all;
-
-}
 /* background-image: linear-gradient(to left,#38e580,#009432,#C4E538);*/
 
 .btn1{
