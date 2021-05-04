@@ -324,6 +324,7 @@ div.row3{
     display: flex;
     justify-content: center;
 }
+
 .cl{
     width: 60%;
 }
@@ -672,4 +673,43 @@ div.carousel-container{
     color: white;
     opacity: 1;
     cursor: pointer;
+}
+
+button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    }
+
+button.playbutton{
+    z-index: 10;
+    position: fixed;
+    margin-top: 10em;
+    margin-left: -18em;
+    width: 4em;
+    height: 4em;
+    transition: 0.5s all;
+}
+button.reloadbutton{
+    z-index: 10;
+    position: fixed;
+    margin-top: 16em;
+    margin-left: -18em;
+    width: 3em;
+    height: 3em;
+    transition: 0.5s all;
+}
+
+button.playbutton:hover{
+    width: 5em;
+    height: 5em;
+}
+button.reloadbutton:hover{
+    width: 4em;
+    height: 4em;
+
 }

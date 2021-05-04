@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url("https://fonts.google.com/share?selection.family=Press%20Start%202P");
 
+
 body{
 background-color:rgb(41, 41, 41);
 background-image: url("/img/black-mosaic-tiles.png");
@@ -197,7 +198,7 @@ li#drop{
 /* background-image: linear-gradient(to left,#38e580,#009432,#C4E538);*/
 
 .btn1{
-    background-image: linear-gradient(to left,#000000,rgb(39, 204, 176),#000000);
+    background-image: linear-gradient(to left,#000000,rgb(255, 255, 255),#000000);
   }
   
   .btn2{
@@ -261,7 +262,7 @@ cursor: pointer;
 
 .bouton-fond:hover{
     margin-top:  -3em;
-    border-style: hidden;
+    /*border-style: hidden;*/
     height: 22em;
     width: 16em;
     
@@ -280,12 +281,42 @@ cursor: pointer;
     opacity: 1;
 
 }
+button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    }
 
+button.playbutton{
+    z-index: 10;
+    position: fixed;
+    margin-top: 10em;
+    width: 4em;
+    height: 4em;
+    transition: 0.5s all;
+}
+button.reloadbutton{
+    z-index: 10;
+    position: fixed;
+    margin-top: 16em;
+    margin-left: 0em;
+    width: 3em;
+    height: 3em;
+    transition: 0.5s all;
+}
 
-.audiobutton{
-    width: 10em;
-    height: 100em;
-    background-color: blue;
+button.playbutton:hover{
+    width: 5em;
+    height: 5em;
+}
+button.reloadbutton:hover{
+    width: 4em;
+    height: 4em;
+
 }
 
 
