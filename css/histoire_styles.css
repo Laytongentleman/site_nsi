@@ -56,7 +56,7 @@ nav.menu ul li{
     outline: none !important;
     font-size: 1.5em;
     font-weight: bolder;
-    font-family: 'Press Start 2P', cursive;
+    font-family: "Poppins", serif;
     color: white;
 
 }
@@ -149,7 +149,7 @@ header div#ban{
 
 }
 div#origines h1{
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     color: white;
     width: auto;
     text-decoration-line: underline;
@@ -167,9 +167,8 @@ div#origines p{
 div#origines p{
     color: white;
     font-size: 1.3em;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
-
 div.content{
     display: flex;
     flex-wrap: wrap;
@@ -319,7 +318,7 @@ li#drop{
 
 .btn{
     border: none;
-    font-family: "Poppins",serif;
+    font-family: 'Press Start 2P', cursive;
     border-radius: 6px;
     cursor: pointer;
     color: #fff;
@@ -350,7 +349,7 @@ li#drop{
   }
   
   div#chapitre2 h1{
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     color: white;
     width: auto;
     text-decoration-line: underline;
@@ -368,11 +367,11 @@ div#chapitre2 p{
 div#chapitre2 p{
     color: white;
     font-size: 1.3em;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 div#chapitre3 h1{
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     color: white;
     width: auto;
     text-decoration-line: underline;
@@ -390,7 +389,7 @@ div#chapitre3 p{
 div#chapitre3 p{
     color: white;
     font-size: 1.3em;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 div#chapitre4 h1{
